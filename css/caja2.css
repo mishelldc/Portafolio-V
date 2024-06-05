@@ -1,0 +1,11 @@
+.caja2{
+    
+    display: grid;
+    flex-direction: row;
+    gap: 3rem;
+    background-color: gray;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}

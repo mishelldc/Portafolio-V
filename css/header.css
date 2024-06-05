@@ -1,0 +1,63 @@
+.header{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    
+    border: 1px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2.9rem;
+    margin-left: 10px;
+}
+nav{
+    width: 90%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav div{
+    width: 10rem;
+    height: 3.5rem;
+    background-color: pink;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav div:hover{
+    transition: 1ms;
+    background-color: rgba(128, 0, 128, 0.509);
+
+}
+
+.btn{
+    width: 10rem;
+    height: 3.5rem;
+    background-color: magenta;
+    color: rgb(231, 26, 26);
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-weight: 600;
+}
+@media (max-width:448px){
+    nav div{
+        background-color: red;
+        gap: 1rem;
+        
+    }
+}
