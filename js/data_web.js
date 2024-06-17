@@ -20,6 +20,34 @@ let webs = [
         repositorio:"https://github.com/mishelldc/To-do-List.git",
         githubpage :"https://mishelldc.github.io/To-do-List/",
         descripcion :"Es una lista de tareas donde pondemos agregar tareas",
+    },
+    {
+        nombre :"IMC",
+        img :"./img/pesoo.png",
+        repositorio:"https://github.com/mishelldc/IMC.git",
+        githubpage :"https://mishelldc.github.io/To-do-List/",
+        descripcion :"Un indicador para saber el peso corporal",
+    },
+    {
+        nombre :"Contraseña",
+        img :"./img/seguridad.png",
+        repositorio:"https://github.com/mishelldc/Contrase-a.git",
+        githubpage :" https://mishelldc.github.io/Contrase-a/",
+        descripcion :"Es un generador de contraseñas",
+    },
+    {
+        nombre :"Visualización",
+        img :"./img/datos.png",
+        repositorio:"https://github.com/mishelldc/Herramienta.git",
+        githubpage :"https://mishelldc.github.io/To-do-List/",
+        descripcion :"Herramienta de visualización de datos",
+    },
+    {
+        nombre :"Clone",
+        img :"./img/smart-fit.png",
+        repositorio:"https://github.com/mishelldc/CLONE.git",
+        githubpage :" https://mishelldc.github.io/CLONE/",
+        descripcion :"Es un clone del SmartFit pero no esta atn terminado JIJI",
     }
       
 
